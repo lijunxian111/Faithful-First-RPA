@@ -15,3 +15,13 @@
   <a href="https://github.com/lijunxian111/Faithful-First-RPA/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/lijunxian111/Faithful-First-RPA"></a>
   <a href=""><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
 </div>
+
+#### 🔥🔥🔥 News
+
+- **2026-04-08:** This repo is released.  
+- **2026-04-08:** IAG is accepted by ACL 2026.
+
+
+---
+
+> **Abstract:** Multimodal Large Language Models (MLLMs) frequently suffer from unfaithfulness, generating reasoning chains that drift from visual evidence or contradict final predictions. We propose Faithful-First Reasoning, Planning, and Acting (RPA) framework in which FaithEvi provides step-wise and chain-level supervision by evaluating the faithfulness of intermediate reasoning, and FaithAct uses these signals to plan and execute faithfulness-aware actions during inference. Experiments across multiple multimodal reasoning benchmarks show that faithful-first RPA improves perceptual faithfulness by up to 24% over prompt-based and tool-augmented reasoning frameworks, without degrading task accuracy. Our analysis shows that treating faithfulness as a guiding principle perceptually faithful reasoning trajectories and mitigates hallucination behavior. This work thereby establishes a unified framework for both evaluating and enforcing faithfulness in multimodal reasoning. Code will be released upon acceptance.
