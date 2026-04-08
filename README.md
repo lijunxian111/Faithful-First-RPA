@@ -1,7 +1,7 @@
 # Faithful-First-RPA
 [🏆ACL'26] Official Repo for Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs
 
-[<strong>Junxian Li*</strong>](https://lijunxian111.github.io), Xinyue Xu*, Sai Ma*, [Di Zhang](https://github.com/trotsky1997), [Sichao Li^](https://sichao-li.github.io/)
+[<strong>Junxian Li*</strong>](https://lijunxian111.github.io), [Xinyue Xu*](https://scholar.google.com/citations?hl=en&user=9AthkQ0AAAAJ), [Sai Ma*](https://scholar.google.com/citations?hl=en&user=9fef3AYAAAAJ), [Di Zhang](https://github.com/trotsky1997), [Sichao Li^](https://sichao-li.github.io/)
 
 </div>
 
