@@ -40,7 +40,9 @@ def ground(image_path, span: str, k=5):
     return scores, bboxes
 
 def poll(image_path, scores_from_ground, span, alpha=0.7, no_poll=False, no_ground=False):
-    # This function combines the 'Poll()' function in the paper, and the probability addition
+    """
+    This function combines the 'Poll()' function in the paper, and the probability addition
+    """
     
     p_yes_candidate = max(scores_from_ground) if len(scores_from_ground)>0 else 0.0
     #clip = CLIPModel.from_pretrained("/path/to/clip-vit-large-patch14-336", trust_remote_code=True)
