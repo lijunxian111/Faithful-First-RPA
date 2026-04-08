@@ -58,8 +58,7 @@ def poll(image_path, scores_from_ground, span, alpha=0.7, no_poll=False, no_grou
     
     p_yes_clip = torch.sigmoid(sim)
     #print(p_yes_clip)
-    
-    # 3. 融合
+
     if no_ground == True:
         p_yes = p_yes_clip
         p_no = 1-p_yes
