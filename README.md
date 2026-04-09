@@ -25,3 +25,26 @@
 ---
 
 > **Abstract:** Multimodal Large Language Models (MLLMs) frequently suffer from unfaithfulness, generating reasoning chains that drift from visual evidence or contradict final predictions. We propose Faithful-First Reasoning, Planning, and Acting (RPA) framework in which FaithEvi provides step-wise and chain-level supervision by evaluating the faithfulness of intermediate reasoning, and FaithAct uses these signals to plan and execute faithfulness-aware actions during inference. Experiments across multiple multimodal reasoning benchmarks show that faithful-first RPA improves perceptual faithfulness by up to 24% over prompt-based and tool-augmented reasoning frameworks, without degrading task accuracy. Our analysis shows that treating faithfulness as a guiding principle perceptually faithful reasoning trajectories and mitigates hallucination behavior. This work thereby establishes a unified framework for both evaluating and enforcing faithfulness in multimodal reasoning. Code will be released upon acceptance.
+
+---
+
+**Train**  
+In the ```train_pope``` folder, you can find codes for training the clip classifier.  
+
+---
+
+**Evaluation**  
+```
+CUDA_VISIBLE_DEVICES=X python eval_f_steps.py  
+```
+One 48G GPU is enough!  
+
+---
+
+**Faithful Reasoning**  
+```
+CUDA_VISIBLE_DEVICES=X python qwen_faith_inference.py
+CUDA_VISIBLE_DEVICES=X python internvl_faith_inference.py
+CUDA_VISIBLE_DEVICES=X python llava_faith_inference.py  
+```
+One 48G GPU is enough!  
