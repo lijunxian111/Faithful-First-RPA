@@ -1,5 +1,7 @@
 # Faithful-First-RPA
+
 [🏆ACL'26] Official Repo for Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs
+> *”A perceptually faithful model reasons only over what is visually observable; it does not “see” what the image does not reveal.“*
 
 [<strong>Junxian Li*</strong>](https://lijunxian111.github.io), [Xinyue Xu*](https://scholar.google.com/citations?hl=en&user=9AthkQ0AAAAJ), [Sai Ma*](https://scholar.google.com/citations?hl=en&user=9fef3AYAAAAJ), [Di Zhang](https://github.com/trotsky1997), [Sichao Li^](https://sichao-li.github.io/)
 
@@ -20,7 +22,6 @@
 
 - **2026-04-08:** This repo is released.  
 - **2026-04-08:** IAG is accepted by ACL 2026.
-
 
 ---
 
