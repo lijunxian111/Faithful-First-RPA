@@ -49,3 +49,16 @@ CUDA_VISIBLE_DEVICES=X python internvl_faith_inference.py
 CUDA_VISIBLE_DEVICES=X python llava_faith_inference.py  
 ```
 One 48G GPU is enough!  
+
+---
+
+### Citation
+
+```ruby
+@article{li2025faithact,
+  title={FaithAct: Faithfulness Planning and Acting in MLLMs},
+  author={Li, Junxian and Xu, Xinyue and Ma, Sai and Li, Sichao},
+  journal={arXiv preprint arXiv:2511.08409},
+  year={2025}
+}
+```
