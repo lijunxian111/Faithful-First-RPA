@@ -54,10 +54,11 @@ One 48G GPU is enough!
 ### Citation
 
 ```ruby
-@article{li2025faithact,
-  title={FaithAct: Faithfulness Planning and Acting in MLLMs},
-  author={Li, Junxian and Xu, Xinyue and Ma, Sai and Li, Sichao},
-  journal={arXiv preprint arXiv:2511.08409},
-  year={2025}
+@inproceedings{li2026faithful,
+  title={Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs},
+  author={Li, Junxian and Xu, Xinyue and Ma, Sai and Zhang, Di and Li, Sichao},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  pages={6777--6793},
+  year={2026}
 }
 ```
