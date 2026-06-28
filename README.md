@@ -14,6 +14,9 @@
   <a href="https://arxiv.org/abs/2511.08409" style="display: inline-block; text-align: center;">
       <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2511.08409-b31b1b.svg?style=flat">
   </a>
+     <a href="https://aclanthology.org/2026.findings-acl.336.pdf" style="display: inline-block; text-align: center;">
+      <img alt="conference" src="https://img.shields.io/badge/ACL%202026-Accepted-brightgreen">
+     </a>
   <a href="https://github.com/lijunxian111/Faithful-First-RPA/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/lijunxian111/Faithful-First-RPA"></a>
   <a href=""><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
 </div>
